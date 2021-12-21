@@ -1,0 +1,98 @@
+.body{
+    display: grid;
+    grid-template-rows: 5fr 90fr 5fr;
+    grid-template-columns: 1fr;
+}
+.header{
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-column-start:1;
+    grid-column-end:2;
+}
+.main{
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: linear-gradient(to bottom,#464545,#353F64);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+
+.footer{
+    grid-row-start:3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+@media (min-width:1200px){
+    img{
+        float:left;
+    }
+    input{
+        display: inline;
+    }
+    .main__figma, .main__stack{
+        padding-bottom: 5vh;
+    }
+    .p__figma, .p__stack{
+        padding-right: 3vw;
+    }
+    
+}
+
+@media (max-width: 700px){
+    input,textarea{
+        display:block;
+       
+
+    }
+}
+@media (max-width:1200px){
+    .p__figma{
+        padding-left: 2em;
+      
+    }
+    .main__figma, .main__stack{
+        padding-bottom: 20vh;
+    }
+}
+.form__textarea{
+    display:block;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 0.5em;
+}
+.form__question1, .form__question2{
+    padding: 7vh;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    margin-left: 4vw;
+    gap: 10vw;
+}
+.contactable{
+    padding-top: 20vh;
+    font-size: 2em;
+}
+.main__description{
+    background-color: orangered;
+    color: white;
+    font-family: cursive;
+}
+
+.main__p1::first-letter, .main__p2::first-letter{
+    color: orangered;
+    font-size: 4em;
+}
+.main__connections{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    padding: 10vw;
+}

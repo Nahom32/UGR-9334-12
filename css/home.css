@@ -1,0 +1,132 @@
+
+.body{
+    display:grid;
+    grid-template-rows:  4fr 79fr 15fr 2fr;
+    grid-template-columns: 1fr;
+}
+
+.header__navigation{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+
+
+
+.main{
+    background-image: url(../images/What_Motivates_People_to_Collaborate_with_Other_People.jpg);
+    background-size:cover;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    color: orangered;
+    font-size: 2em;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0px;
+    padding-top: 40vh;
+    
+}
+
+
+
+
+.wrapped {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start:1;
+    grid-column-end:2;
+
+    
+}
+@media (max-width: 1200px){
+    .wrapped{
+        display:inline-flex;
+        flex-direction: column;
+        justify-content:safe;
+        
+    }
+    .footer{
+        margin-top: 0px;
+    }
+
+
+}
+
+@media (min-width:1200px){
+    .wrapped{
+        display: inline-grid;
+        grid-template-columns: 33.5fr 33.5fr 33fr;
+        grid-template-rows: 0.2fr 0.8fr;
+    }
+    .wrapped__Title{
+        grid-row-start:1;
+        grid-row-end:2;
+        grid-column-start:1;
+        grid-column-end:4;
+        margin:0px;
+
+        
+    }
+    .wrapped__firstAchievement{
+        grid-column-start:1;
+        grid-column-end: 2;
+        grid-row-start:2;
+        grid-row-end:3;
+        
+        
+    }
+    
+    .wrapped__secondAchievement{
+        grid-column-start:2;
+        grid-column-end:3;
+        grid-row-start:2;
+        grid-row-end:3;
+        
+    }
+    .wrapped__thirdAchievement{
+        grid-column-start:3;
+        grid-column-end:4;
+        grid-row-start:2;
+        grid-row-end:3;
+    }
+
+}
+@media (max-width:1200px){
+    .main{
+    color:white;
+    background-image: linear-gradient(to bottom,#000,#fff);
+    font-family: cursive;
+    margin: 0px;
+    }
+    .wrapped__Title, .wrapped__firstAchievement, .wrapped__secondAchievement, .wrapped__thirdAchievement, .footer{
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+   
+}
+
+.wrapped__firstAchievement,.wrapped__secondAchievement, .wrapped__thirdAchievement{
+    background-color: #353F64;
+    color:whitesmoke;
+    font-size: 1em;
+}
+.wrapped__Title{
+    background-color: orangered;
+     font-family: cursive;
+    color: white;
+}
+.footer{
+    grid-row-start:4;
+    grid-row-end:5;
+    grid-column-start:1;
+    grid-column-end:4;
+}
+
+
