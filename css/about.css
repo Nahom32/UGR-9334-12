@@ -86,7 +86,7 @@
     font-family: cursive;
 }
 
-.main__p1::first-letter, .main__p2::first-letter{
+.main__p1::first-letter, .main__p2::first-letter,.main__parcar, .main__cafe{
     color: orangered;
     font-size: 4em;
 }
@@ -100,5 +100,6 @@
     background-color: #03351D;
 }
 .main__parcar, .main__parfood, .p__car, .p__cafe{
-    padding: 4em;
+    padding-right: 3em;
+    padding-bottom: 10vh;
 }
