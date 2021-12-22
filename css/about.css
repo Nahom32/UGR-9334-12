@@ -104,7 +104,8 @@
     padding-bottom: 10vh;
 }
 .main__h1{
-    padding: 10vw;
+    padding-top: 10vh;
+    padding-left: 10vw;
     padding-bottom: 3vh;
     font-family: cursive;
 }
