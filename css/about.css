@@ -99,3 +99,6 @@
 .main__par{
     background-color: #03351D;
 }
+.main__first, .main__second, .p__car, .p__cafe{
+    padding: 2em;
+}
