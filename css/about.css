@@ -108,5 +108,6 @@
 }
 @media (max-width: 900px){
     .main__connections{
-        display: block;
+        flex-direction: column;
+        gap: 5vh;
     }
