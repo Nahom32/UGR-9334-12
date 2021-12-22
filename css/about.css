@@ -113,5 +113,6 @@
 @media (max-width: 900px){
     .main__connections{
         display: block;
+        gap: 7vh;
     }
 }
