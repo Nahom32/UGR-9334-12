@@ -103,3 +103,10 @@
     padding-right: 3em;
     padding-bottom: 10vh;
 }
+.main__h1{
+    font-family: cursive;
+}
+@media (max-width: 900px){
+    .main__connections{
+        display: block;
+    }
