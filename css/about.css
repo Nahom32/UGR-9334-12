@@ -86,7 +86,7 @@
     font-family: cursive;
 }
 
-.main__p1::first-letter, .main__p2::first-letter,.main__parcar::first-letter, .main__parfood::first-letter{
+.main__p1::first-letter, .main__p2::first-letter{
     color: orangered;
     font-size: 4em;
 }
