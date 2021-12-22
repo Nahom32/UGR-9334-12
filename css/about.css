@@ -105,6 +105,7 @@
 }
 .main__h1{
     padding: 10vw;
+    padding-bottom: 3vh;
     font-family: cursive;
 }
 @media (max-width: 900px){
